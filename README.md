@@ -5,6 +5,8 @@ To use this code i suggest you to import as a library and use it when you actual
 
 In test.js file you can find an example on how to use it.
 
-I will load next a simple "Queue system" to avoid being ratelimited while sending webhooks 
+You can also use the queue system if you need, this has been made to help a bit in terms of discord ratelimits, it's not the best solution but it helps a lot.
+
+If you like and if you find this useful, please leave a star <3
 
 Enjoy :)
