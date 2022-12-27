@@ -20,7 +20,6 @@ export class Queue {
     async checkQueue(){
         while (true){
             if (this.webhook.length != 0){
-                console.log("sending")
                 let task = new Discord(this.webhook[0]).sendWehook(this.webhookData[0])
                 this.webhook.shift()
                 this.webhookData.shift()
