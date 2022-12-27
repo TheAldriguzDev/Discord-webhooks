@@ -26,7 +26,7 @@ export class Queue {
                 await this.sleep(500) // you can set custom ms interval
             } else {
                 await this.sleep(1000) // you can set custom ms interval
-                console.log(chalk.gray("Waiting webhooks..."))
+                console.log(chalk.gray("Waiting webhooks...")) // you can delete this
             }
         }
     }
