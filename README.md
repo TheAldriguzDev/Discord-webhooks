@@ -2,7 +2,7 @@
 
 ### In this repo you will find a simple discord webhook logger written in nodejs using axios and chalk.
 
-To use this code i suggest you to **import** the Discord.js or the Queue.js module and use them when you actually need them.
+To use this code i suggest you to **import** the Discord.js or the Queue.js module and use them when you actually need them. <br>
 Make sure to **do not import** both. Just choose one.
 
 ### Test files
